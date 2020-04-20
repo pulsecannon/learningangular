@@ -11,6 +11,5 @@ export class AppComponent {
 
     constructor(
         @Inject('mail') private mail,
-        @Inject('api') private api,
     ) {}
 }
